@@ -1,0 +1,13 @@
+mb_read
+	0x01 - read_coil_status
+	0x02 - read_input_status
+	0x03 - read_holding_registers
+	0x04 - read_input_registers
+	
+mb_write
+	0x05 - force_single_coil
+	0x06 - preset_single_register
+	
+mb_write2
+	0x0F - force_multiple_coils
+	0x10 - preset_multiple_registers
